@@ -3,7 +3,7 @@ syntax = "proto3";
 package virtual_hat;
 
 service VirtualHatService {
-  rpc createVirtualHat (CreateVirtualHatRequest) returns (CreateVirtualHatResponse) {}
+  rpc CreateVirtualHat (CreateVirtualHatRequest) returns (CreateVirtualHatResponse) {}
 }
 
 message CreateVirtualHatRequest {
