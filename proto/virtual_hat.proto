@@ -7,8 +7,8 @@ service VirtualHatService {
 }
 
 message CreateVirtualHatRequest {
-  int32 value = 2;
-  int32 userId = 3;
+  int32 value = 1;
+  int32 userId = 2;
 }
 
 message CreateVirtualHatResponse {
