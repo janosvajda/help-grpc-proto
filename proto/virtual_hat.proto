@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package virtual-hat;
+package virtual_hat;
 
 service VirtualHatService {
   rpc CreateOrder (CreateVirtualHatRequest) returns (CreateVirtualHatResponse) {}
