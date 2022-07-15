@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package qrcode;
+
+service VirtualHatService {
+  rpc CreateQRCode (CreateQRCodeRequest) returns (CreateQRCodeResponse) {}
+}
+
+message CreateQRCodeRequest {
+  int32 userId = 1;
+  string smileId = 2;
+}
+
+message CreateQRCodeResponse {
+  int32 status = 1;
+  repeated string error = 2;
+  int32 id = 3;
+}
